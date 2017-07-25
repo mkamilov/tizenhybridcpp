@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="3.0" package="org.example.hybridservice" version="1.0.0">
+    <profile name="wearable" />
+    <service-application appid="org.example.hybridservice" exec="hybridservice" type="capp" multiple="false" taskmanage="false" nodisplay="true">
+        <label>hybridservice</label>
+    </service-application>
+    <privileges>
+      <privilege>http://tizen.org/privilege/datasharing</privilege>
+      <privilege>http://tizen.org/privilege/packagemanager.info</privilege>
+    </privileges>
+</manifest>
